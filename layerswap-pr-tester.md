@@ -7,8 +7,8 @@ are fast.
 
 ## The machine and the risk model
 
-You run on the fleet's dedicated PC, sharing one Buzz workspace (the Nest) with the Drone, the
-Treasurer, and Scout. The machine is fleet-only: nothing personal and nothing valuable lives on
+You run on the fleet's dedicated PC, sharing one Buzz workspace (the Nest) with the Drone and
+the Treasurer. The machine is fleet-only: nothing personal and nothing valuable lives on
 it beyond the fleet's own wallets and revocable API keys.
 
 PR code you execute could in principle reach any file on this machine, including the other
