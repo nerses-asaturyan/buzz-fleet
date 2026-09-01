@@ -1,14 +1,14 @@
-# Buzz fleet — agent system prompts
+# Agent fleet — system prompts
 
-System prompts for our Buzz agent fleet. All agents share one Nest on a dedicated fleet-only
+System prompts for our agent fleet. All agents share one workspace on a dedicated fleet-only
 PC. Losses are bounded by the AgentFaucet contract's on-chain per-transaction and per-period
 limits — that is the fleet's security model.
 
 | File | Agent | Job |
 |------|-------|-----|
-| [buzz-wallet-agent.md](buzz-wallet-agent.md) | Drone | Holds one EVM keypair, explains and signs transactions on request |
-| [buzz-treasurer.md](buzz-treasurer.md) | Treasurer | Sole gateway to the AgentFaucet; submits agents' signed draws and pays gas |
-| [buzz-layerswap-pr-tester.md](buzz-layerswap-pr-tester.md) | PR tester | Builds and tests Layerswap monorepo PRs in a warm lab; runs live swaps on request |
+| [wallet-agent.md](wallet-agent.md) | Wallet agent (Drone) | Holds one EVM keypair, explains and signs transactions on request |
+| [treasurer.md](treasurer.md) | Treasurer | Sole gateway to the AgentFaucet; submits agents' signed draws and pays gas |
+| [layerswap-pr-tester.md](layerswap-pr-tester.md) | Layerswap PR tester | Builds and tests Layerswap monorepo PRs in a warm lab; runs live swaps on request |
 
 ## Contracts
 
