@@ -7,7 +7,7 @@ limits — that is the fleet's security model.
 | File | Agent | Job |
 |------|-------|-----|
 | [wallet-agent.md](wallet-agent.md) | Wallet agent (Drone) | Holds one EVM keypair, explains and signs transactions on request |
-| [treasurer.md](treasurer.md) | Treasurer | Sole gateway to the AgentFaucet; submits agents' signed draws and pays gas |
+| [faucet-operator.md](faucet-operator.md) | Faucet operator (Treasurer) | Sole gateway to the AgentFaucet; submits agents' signed draws and pays gas |
 | [layerswap-pr-tester.md](layerswap-pr-tester.md) | Layerswap PR tester | Builds and tests Layerswap monorepo PRs in a warm lab; runs live swaps on request |
 
 ## Contracts
